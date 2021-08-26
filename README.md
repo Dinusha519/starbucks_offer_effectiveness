@@ -1,6 +1,6 @@
 # Evaluation of Offers' Effectiveness
 
-This repository contains an end to end project analysing Starbucks Offers and finding what type of customers respond best to what type of offers. This article has a project walk through.
+This repository contains an end to end project analysing Starbucks Offers and finding what type of customers respond best to what type of offers. This [article](https://medium.com/@dindisn/offer-effectiveness-analysis-for-star-bucks-f59b40296e03) has a detailed walk through of the project
 
 ## Project Overview
 Starbucks is a well-known coffee shop with locations all over the world. Starbucks, like most other stores, has a mobile app via which users can receive special discounts from time to time. An offer might be as simple as a drink commercial or as complex as a discount or a BOGO deal (buy one get one free). Every offer has a time limit before it expires, and some, such as discounts and BOGO, require a minimum purchase to be eligible.
@@ -22,10 +22,11 @@ The project was developed using python 3.6.7 with the following packages.
 
 - Starbucks_Capstone_notebook.ipynb : Jupyter Notebook with the analysis
 - data/ : data from Starbucks
+- images/: images used for report
 - Project_dataprep_utils.ipynb.ipynb: functions for the project analysis in 
 
 ### Summary
-There were 3 json input files to satrt with profile, portfolio and transcript. These datsets were preprocessed and master table was created with customer level granularity. Then an step by step development was carried out till 2 classification models were built to identify the most important features customers should have have a successful offer. As they are black box models shap analysis was used to interpret the models. Few more improvements which could be tried are also have identified. For a detailed walthrough of the project, please checkout the article mentioned above. 
+To begin, there were three json input files: profile, portfolio, and transcript. These data sets were preprocessed, and a master table with customer-level granularity was generated. Then, step by step, two categorization models were created to identify the most significant traits customers should have in order to make a successful offer. Shap analysis was utilized to interpret the models because they were black box models. Please see the page linked above for a complete walkthrough of the project.
 
 ### Acknowledgements
 
