@@ -1,6 +1,6 @@
 # Evaluation of Offers' Effectiveness
 
-This repository contains an end to end project analysing Starbucks Offers and finding what type of customers respond best to what type of offers. This [article](https://medium.com/@dindisn/offer-effectiveness-analysis-for-star-bucks-f59b40296e03) has a detailed walk through of the project
+This repository contains an end to end project analysing Starbucks Offers and finding what type of customers respond best to what type of offers. This repo has a pdf with the detailed walk through of the project
 
 ## Project Overview
 Starbucks is a well-known coffee shop with locations all over the world. Starbucks, like most other stores, has a mobile app via which users can receive special discounts from time to time. An offer might be as simple as a drink commercial or as complex as a discount or a BOGO deal (buy one get one free). Every offer has a time limit before it expires, and some, such as discounts and BOGO, require a minimum purchase to be eligible.
@@ -21,6 +21,7 @@ The project was developed using python 3.6.7 with the following packages.
 ### Files
 
 - Starbucks_Capstone_notebook.ipynb : Jupyter Notebook with the analysis
+- starbucks_report : Article with.a walls through of the project
 - data/ : data from Starbucks
 - images/: images used for report
 - Project_dataprep_utils.ipynb.ipynb: functions for the project analysis in 
